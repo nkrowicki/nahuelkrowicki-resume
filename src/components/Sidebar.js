@@ -2,20 +2,25 @@ import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
+
 import avatar from '../assets/images/avatar.png';
 import config from '../../config';
 
 export class Sidebar extends Component {
+
   constructor(props) {
     super(props);
+    
     this.state = {
       tabs: [
         { content: 'About', href: 'about' },
-        { content: 'Experience', href: 'experience' },
-        { content: 'Education', href: 'education' },
         { content: 'Skills', href: 'skills' },
+        { content: 'Experience', href: 'experience' },
+        { content: 'Trainings', href: 'trainings' },
+        { content: 'Education', href: 'education' },
         { content: 'Interests', href: 'interests' },
-        { content: 'Awards', href: 'awards' },
+        { content: 'Hobbies', href: 'hobbies' },
+        { content: 'Languages', href: 'languages' },
       ],
     };
   }

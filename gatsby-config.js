@@ -10,7 +10,7 @@ module.exports = {
       resolve: `gatsby-theme-localization`,
       options: {
         languages: ['en', 'es'],
-        namespaces: ['translation', 'about'],
+        // namespaces: ['translation'],
         localesDir: './src/locales',
         allowIndex: false,
         defaultLng: 'en',
