@@ -20,7 +20,7 @@ module.exports = {
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: 'https://linkedin.com/in/nahuel-krowicki/',
+      url: 'https://linkedin.com/in/nahuel-krowicki-991a95106',
     },
     // {
     //   icon: 'fa-twitter',
