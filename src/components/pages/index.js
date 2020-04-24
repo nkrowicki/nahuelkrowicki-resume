@@ -31,7 +31,8 @@ const IndexPage = () => {
               <a href={`mailto:${config.email}`}>{config.email}</a>
             </div>
             <p className="lead mb-5">
-              {data.summary}
+              <div>{data.summary1}</div>
+              <div>{data.summary2}</div>
 
             </p>
             <div className="social-icons">
@@ -163,7 +164,7 @@ const IndexPage = () => {
 
         <hr className="m-0" />
 
-        <section
+        {/* <section
           className="resume-section p-3 p-lg-5 d-flex align-items-center"
           id="interests"
         >
@@ -178,9 +179,9 @@ const IndexPage = () => {
           </div>
         </section>
 
-        <hr className="m-0" />
+        <hr className="m-0" /> */}
 
-        <section
+        {/* <section
           className="resume-section p-3 p-lg-5 d-flex align-items-center"
           id="hobbies"
         >
@@ -193,7 +194,7 @@ const IndexPage = () => {
               {data.hobbies.description2}
             </p>
           </div>
-        </section>
+        </section> */}
 
         <hr className="m-0" />
 

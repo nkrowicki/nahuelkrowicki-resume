@@ -1,54 +1,36 @@
 module.exports = {
-  summary: 'I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.',
+  summary1: 'Passionate about computers, technology and security.',
+  summary2: 'I love learning new things!',
   experience: {
-    title: 'experience',
+    title: 'Experience',
     experiences: [
       {
-        title: "titulo1",
-        subHeading: "subheading1",
-        description: "descripcion1",
-        dateSince: 'December 1111',
-        dateEnd: 'March 1111'
+        title: "Owner",
+        subHeading: "Nubedi",
+        description: 'We help and advise companies in creating digital strategies to achieve their goals by optimizing the digital sector, from their website and online advertising to the management and administration of their social media.',
+        dateSince: 'March 2019',
+        dateEnd: 'Today'
       },
       {
-        title: "titulo2",
-        subHeading: "subheading2",
-        description: "descripcion2",
-        dateSince: 'December 2222',
-        dateEnd: 'March 2222'
+        title: "It analyst",
+        subHeading: "Farmacias Dr. Ahorro",
+        description: "Responsible for ensuring the correct functioning of computer equipment in branches and at headquarters.",
+        dateSince: 'March 2016',
+        dateEnd: 'June 2019'
       },
       {
-        title: "titulo3",
-        subHeading: "subheading3",
-        description: "descripcion3",
-        dateSince: 'December 3333',
-        dateEnd: 'March 3333'
+        title: "Web Developer y Community Manager",
+        subHeading: "Freelancer",
+        description: "Web Development. Social Network Management. Content creator and campaign management.",
+        dateSince: 'July 2017',
+        dateEnd: 'March 2019'
       },
       {
-        title: "titulo4",
-        subHeading: "subheading4",
-        description: "descripcion4",
-        dateSince: 'December 4444',
-        dateEnd: 'March 4444'
-      },
-    ]
-  },
-  education: {
-    title: 'College Education',
-    educations: [
-      {
-        title: "Education 1",
-        subHeading: "subheading1",
-        description: "descripcion1",
-        dateSince: 'December 1111',
-        dateEnd: 'March 1111'
-      },
-      {
-        title: "Education 2",
-        subHeading: "subheading2",
-        description: "descripcion2",
-        dateSince: 'December 2222',
-        dateEnd: 'March 2222'
+        title: "Repair technician and customer service",
+        subHeading: "Norfix",
+        description: "Technical support and attention to companies and individuals.",
+        dateSince: 'March 2014',
+        dateEnd: 'March 2016'
       }
     ]
   },
@@ -56,25 +38,79 @@ module.exports = {
     title: 'Trainings',
     trainings: [
       {
-        title: "Training 1",
-        subHeading: "subheading1",
-        description: "descripcion1",
-        dateSince: 'December 1111',
-        dateEnd: 'March 1111'
+        title: "TypeScript, React JS, Gatsby y MERN",
+        subHeading: "Udemy",
+        description: " React Hooks. Context. Gatsby. GraphQL. Firestore. Redux. MERN. Next.js. Styled Components. Custom Hooks.",
+        dateSince: 'December 2019',
+        dateEnd: 'April 2020'
       },
       {
-        title: "Course 2",
-        subHeading: "subheading2",
-        description: "descripcion2",
-        dateSince: 'December 2222',
-        dateEnd: 'March 2222'
+        title: "Cybersecurity",
+        subHeading: "Fundación Telefónica",
+        description: "Technical networks and applications and wireless security. Linux and python. Governments and risks (APT and Cybersecurity). Cryptography and steganography. Forensic analysis of computer systems. Ethical hacking. Metasploit. Violation of identification and authentication mechanisms.",
+        dateSince: 'July 2019',
+        dateEnd: 'December 2019'
+      },
+      {
+        title: "Digital Marketing",
+        subHeading: "Platzi",
+        description: "Technical networks and applications and wireless security. Linux and python. Governments and risks (APT and Cybersecurity). Cryptography and steganography. Forensic analysis of computer systems. Ethical hacking. Metasploit. Violation of identification and authentication mechanisms.",
+        dateSince: 'October 2018',
+        dateEnd: 'February 2019'
+      },
+      {
+        title: "FullStack Web Development",
+        subHeading: "Coderhouse",
+        description: "HTML5, CSS3, ES2015 y ES6. React. Redux. Babel. Webpack. Node. REST y RESTful. Express. SQL. Sequelize. Heroku. Firebase",
+        dateSince: 'March 2018',
+        dateEnd: 'November 2018'
+      },
+      {
+        title: "Certified Ethical Hacker (CEH)",
+        subHeading: "UTN FRBA",
+        description: "CUV: CER-QX5S6B2M-205668. Hacking and Penetration Testin. Footprinting and Reconnaissanc. Network Scannin. Enumeration and Cryptograph. System Hackin. Malwar. Sniffin. Social Engineerin. Denial of Service and Session Hijackin. Hacking Web Server. Hacking Web Application. SQL Injectio. Hacking Wireless Network. Hacking Mobile Platform. Evading IDS, Firewalls, and Honeypot. Buffer Overflow",
+        dateSince: 'December 2016',
+        dateEnd: 'August 2017'
+      },
+      {
+        title: "CCNA",
+        subHeading: "Fundación Proydesa",
+        description: "Configuration IOS (Netlaboraling Operating System). Network Protocols and Communication. Access to network. Ethernet. Network Layer. Transport Layer. IP Addressing (Version 4 and Version 6) Division into subnets of IP network addresses. OSI model / TCP/IP model. Approach to a LAN. Concepts and basic configuration of switches. VLANs. Routing concepts. Routing between VLANs. Static Routing. Dynamic Routing. Simple Area OSPF. Access control lists. DHCP. NAT (IP version 4). LAN Redundancy. Link Aggregation. Wireless LANs. Settings and troubleshooting in Single Area OSPF. Multiple Area OSPF. EIGRP. Advanced EIGRP settings and troubleshooting. IOS images and licenses. Hierarchical Network Design. Connecting to the WAN. Point to point connections. Frame Relay. NAT (IP version 4). Broadband solutions. Securing site-to-site connectivity. Network monitoring. Network troubleshooting",
+        dateSince: 'Marzo 2015',
+        dateEnd: 'December 2017'
+      },
+      {
+        title: "Operator, administrator, linux networks and ethical hacking",
+        subHeading: "CLA (Carrera Linux Argentina)",
+        description: "Installation of Debian GNU/Linux, runlevels, basic system commands, Vi text editor, packaging and file compression, package management, system processes. Compiling applications, user administration, Shell Scripting. Crontab/Anacrontab, Syslog. DHCP, DNS, SSH, FTP, Samba, Apache2, Postfix, Squid, IPTables. Ethical Hacking: Footprinting, System Hacking, Linux Hacking, Viruses, HIDS, NIDS, Social Engineering, Sniffers, Honeypots, Buffer Overflow, Cryptography, File System Encryption, Scanning, Hacking Web Servers, SQL Injection, Web Applications Vulnerabilities, DoS, Wireless networking.",
+        dateSince: 'December 2016',
+        dateEnd: 'August 2017'
+      }
+    ]
+  },
+  education: {
+    title: 'Education',
+    educations: [
+      {
+        title: "Web Development University Technique",
+        subHeading: "UNLAM (Universidad Nacional de la matanza)",
+        description: "Abandoned due to the low level of education in the career. 9/20 Subjects approved: Basic Programming I, Basic Programming II, General Computer Science, Technical English I, Technical English II, General Mathematics, Database I, Web Programming I, Web Programming II.",
+        dateSince: 'April 2015',
+        dateEnd: 'March 2016'
+      },
+      {
+        title: "Personal and professional computer technician: Networks",
+        subHeading: "E.S.E.T N°6 Chacabuco Morón",
+        description: "Specification in computer networks. End of course project: Design and installation of the network in the computer room of the Dorrego Institute in Morón.",
+        dateSince: 'March 2007',
+        dateEnd: 'December 2013'
       }
     ]
   },
   skills: {
-    title: 'skills',
-    subheading1: 'Programming Languages and Tools',
-    subheading2: 'KNOWLEDGE AND MAIN FOCUS ON',
+    title: 'Skills',
+    subheading1: 'Programming languages and tools',
+    subheading2: 'Knowledge and main focus',
     workflows: [
       'JavaScript (ES6/+)',
       'HTML5 - CSS3, Styled-Components',
@@ -88,18 +124,18 @@ module.exports = {
       'Linux: Debian/Ubuntu'
     ]
   },
-  interests: {
-    title: 'interests',
-    description1: 'Description 1',
-    description2: 'Description 2'
-  },
+  // interests: {
+  //   title: 'Intereses',
+  //   description1: 'Description 1',
+  //   description2: 'Description 2'
+  // },
   hobbies: {
     title: 'Hobbies',
-    description1: 'Description 1',
+    description1: 'I love playing table tennis!',
     description2: 'Description 2'
   },
   languages: {
-    title: 'languages',
+    title: 'Languages',
     languages: [
       "Spanish (Native)",
       "English (Intermediate)"

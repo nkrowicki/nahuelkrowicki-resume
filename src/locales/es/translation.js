@@ -1,80 +1,116 @@
 module.exports = {
-  summary: 'I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.',
+  summary1: 'Apasionado de la informática, la tecnología y la seguridad.',
+  summary2: 'Me fascina aprender cosas nuevas!',
   experience: {
-    title: 'experience',
+    title: 'Experiencia',
     experiences: [
       {
-        title: "titulo1",
-        subHeading: "subheading1",
-        description: "descripcion1",
-        dateSince: 'December 1111',
-        dateEnd: 'March 1111'
+        title: "Propietario",
+        subHeading: "Nubedi",
+        description: 'Ayudamos y asesoramos a empresas en la creación de estrategias digitales para lograr sus objetivos optimizando el sector digital, desde su sitio web y su publicidad online hasta el manejo y administración de sus medios sociales.',
+        dateSince: 'Marzo 2019',
+        dateEnd: 'Hoy'
       },
       {
-        title: "titulo2",
-        subHeading: "subheading2",
-        description: "descripcion2",
-        dateSince: 'December 2222',
-        dateEnd: 'March 2222'
+        title: "Analista de TI",
+        subHeading: "Farmacias Dr. Ahorro",
+        description: "Responsable de garantizar el correcto funcionamiento de equipos informáticos en Sucursales y en Casa Central.",
+        dateSince: 'Marzo 2016',
+        dateEnd: 'Junio 2019'
       },
       {
-        title: "titulo3",
-        subHeading: "subheading3",
-        description: "descripcion3",
-        dateSince: 'December 3333',
-        dateEnd: 'March 3333'
+        title: "Desarrollador Web y Community Manager",
+        subHeading: "Freelancer",
+        description: "Desarrollo Web. Administración de redes sociales. Creador de contenido y gestión de campañas.",
+        dateSince: 'Julio 2017',
+        dateEnd: 'Marzo 2019'
       },
       {
-        title: "titulo4",
-        subHeading: "subheading4",
-        description: "descripcion4",
-        dateSince: 'December 4444',
-        dateEnd: 'March 4444'
-      },
-    ]
-  },
-  education: {
-    title: 'College Education',
-    educations: [
-      {
-        title: "Education 1",
-        subHeading: "subheading1",
-        description: "descripcion1",
-        dateSince: 'December 1111',
-        dateEnd: 'March 1111'
-      },
-      {
-        title: "Education 2",
-        subHeading: "subheading2",
-        description: "descripcion2",
-        dateSince: 'December 2222',
-        dateEnd: 'March 2222'
+        title: "Técnico reparador y atención al cliente",
+        subHeading: "Norfix",
+        description: "Soporte técnico y atención a empresas y particulares.",
+        dateSince: 'Marzo 2014',
+        dateEnd: 'Marzo 2016'
       }
     ]
   },
   training: {
-    title: 'Trainings',
+    title: 'Cursos',
     trainings: [
       {
-        title: "Training 1",
-        subHeading: "subheading1",
-        description: "descripcion1",
-        dateSince: 'December 1111',
-        dateEnd: 'March 1111'
+        title: "TypeScript, React JS, Gatsby y MERN",
+        subHeading: "Udemy",
+        description: " React Hooks. Context. Gatsby. GraphQL. Firestore. Redux. MERN. Next.js. Styled Components. Custom Hooks.",
+        dateSince: 'Diciembre 2019',
+        dateEnd: 'Abril 2020'
       },
       {
-        title: "Course 2",
-        subHeading: "subheading2",
-        description: "descripcion2",
-        dateSince: 'December 2222',
-        dateEnd: 'March 2222'
+        title: "Ciberseguridad",
+        subHeading: "Fundación Telefónica",
+        description: "Redes y aplicaciones técnicas y seguridad wireless. Linux y python. Gobiernos y riesgos (APT Y Ciberseguridad). Criptografía y esteganografía. Análisis forense de sistemas informáticos. Hacking ético. Metasploit. Vulneración de mecanismos de identificación y autenticación.",
+        dateSince: 'Julio 2019',
+        dateEnd: 'Diciembre 2019'
+      },
+      {
+        title: "Marketing Digital",
+        subHeading: "Platzi",
+        description: " Marketing Digital. Instagram Ads y Optimización de Campañas. Estrategia y Creación de Contenido Digital. Manejo de Crisis en Redes Sociales. SEO: Posicionamiento en Buscadores",
+        dateSince: 'Octubre 2018',
+        dateEnd: 'Febrero 2019'
+      },
+      {
+        title: "Desarrollo Web FullStack",
+        subHeading: "Coderhouse",
+        description: "HTML5, CSS3, ES2015 y ES6. React. Redux. Babel. Webpack. Node. REST y RESTful. Express. SQL. Sequelize. Heroku. Firebase",
+        dateSince: 'Marzo 2018',
+        dateEnd: 'Noviembre 2018'
+      },
+      {
+        title: "Certified Ethical Hacker (CEH)",
+        subHeading: "UTN FRBA",
+        description: "CUV: CER-QX5S6B2M-205668. Hacking and Penetration Testin. Footprinting and Reconnaissanc. Network Scannin. Enumeration and Cryptograph. System Hackin. Malwar. Sniffin. Social Engineerin. Denial of Service and Session Hijackin. Hacking Web Server. Hacking Web Application. SQL Injectio. Hacking Wireless Network. Hacking Mobile Platform. Evading IDS, Firewalls, and Honeypot. Buffer Overflow",
+        dateSince: 'Diciembre 2016',
+        dateEnd: 'Agosto 2017'
+      },
+      {
+        title: "CCNA",
+        subHeading: "Fundación Proydesa",
+        description: "Configuración del IOS (Netlaboraling Operating System). Protocolos de red y Comunicaciones. Acceso a la red. Ethernet. Capa de Red. Capa de Transporte. Direccionamiento IP (Versión 4 y Version 6). División en subredes de direcciones de red IP. Modelo OSI / Modelo TCP/IP. Acercamiento a una Red Lan. Conceptos y configuración básica de Switches. VLANs. Conceptos de enrutamiento. Enrutamiento entre VLANs. Enrutamiento Estático. Enrutamiento dinámico. OSPF de Área Simple. Listas de control de acceso. DHCP. NAT (IP versión 4). LAN Redundancy. Link Aggregation. LANs Wireless. Ajustes y resolución de problemas en OSPF de Área Simple. OSPF Múltiples Áreas. EIGRP. Configuración Avanzada de EIGRP y resolución de problemas. Imágenes de IOS y Licencias. Diseño de redes jerárquicas. Conectándose a la WAN. Conexiones punto a punto. Frame Relay. NAT (IP versión 4). Soluciones de banda ancha. Segurizar la conectividad sitio a sitio. Monitoreo de red. Solución de problemas en la red",
+        dateSince: 'Marzo 2015',
+        dateEnd: 'Diciembre 2017'
+      },
+      {
+        title: "Operador, administrador, redes linux y ethical hacking",
+        subHeading: "CLA (Carrera Linux Argentina)",
+        description: "Instalacion de Debian GNU/Linux, runlevels, comandos básicos del sistema, editor de textos Vi, empaquetado y compresión de archivos, manejo de paquetes, procesos del sistema.. Compilación de aplicaciones, administración de usuarios, Shell Scripting. Crontab/Anacrontab, Syslog.. DHCP, DNS, SSH, FTP, Samba, Apache2, Postfix, Squid, IPTables.. Ethical Hacking: Footprinting, System Hacking, Linux Hacking, Viruses, HIDS, NIDS, Ingenieria Social, Sniffers, Honeypots, Buffer Overflow, Criptografia, Sistema de archivos crifrado, Scanning, Hacking Web Servers, SQL Injection, Web Applications Vulnerabilities, DoS, Wireless networking.",
+        dateSince: 'Diciembre 2016',
+        dateEnd: 'Agosto 2017'
+      }
+    ]
+  },
+  education: {
+    title: 'Educación formal',
+    educations: [
+      {
+        title: "Técnicatura universitaria en Desarrollado Web",
+        subHeading: "UNLAM (Universidad Nacional de la matanza)",
+        description: "Abandonado debido al bajo nivel de enseñanza que se presentaba en la carrera. 9/20 Materias aprobadas: Programación Básica I, Progamación básica II, Informática General, Inglés Técnico I, Inglés técnico II, Matemática general, Base de Datos I, Programación Web I, Programación Web II.",
+        dateSince: 'Abril 2015',
+        dateEnd: 'Marzo 2016'
+      },
+      {
+        title: "Técnico en Informática personal y profesional: Redes",
+        subHeading: "E.S.E.T N°6 Chacabuco Morón",
+        description: "Especifiación en redes informáticas. Proyecto de final de curso: Diseñar y realizar la instalación de red de la sala de informática del instituto Dorrego de Morón.",
+        dateSince: 'Marzo 2007',
+        dateEnd: 'Diciembre 2013'
       }
     ]
   },
   skills: {
-    title: 'skills',
-    subheading1: 'Programming Languages and Tools',
-    subheading2: 'KNOWLEDGE AND MAIN FOCUS ON',
+    title: 'Habilidades',
+    subheading1: 'Lenguajes de programación y Herramientas',
+    subheading2: 'Conocimiento y enfoque principal',
     workflows: [
       'JavaScript (ES6/+)',
       'HTML5 - CSS3, Styled-Components',
@@ -88,21 +124,21 @@ module.exports = {
       'Linux: Debian/Ubuntu'
     ]
   },
-  interests: {
-    title: 'interests',
-    description1: 'Description 1',
-    description2: 'Description 2'
-  },
+  // interests: {
+  //   title: 'Intereses',
+  //   description1: 'Description 1',
+  //   description2: 'Description 2'
+  // },
   hobbies: {
     title: 'Hobbies',
-    description1: 'Description 1',
+    description1: 'Me fascina jugar al tenis de mesa!',
     description2: 'Description 2'
   },
   languages: {
-    title: 'languages',
+    title: 'Idiomas',
     languages: [
-      "Spanish (Native)",
-      "English (Intermediate)"
+      "Español (Nativo)",
+      "Inglés (Intermedio)"
     ]
   }
 }

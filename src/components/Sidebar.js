@@ -35,14 +35,14 @@ export class Sidebar extends Component {
           content: this.lang === 'es' ? 'Educación' : 'Education',
           href: 'education'
         },
-        {
-          content: this.lang === 'es' ? 'Intereses' : 'Interests',
-          href: 'interests'
-        },
-        {
-          content: 'Hobbies',
-          href: 'hobbies'
-        },
+        // {
+        //   content: this.lang === 'es' ? 'Intereses' : 'Interests',
+        //   href: 'interests'
+        // },
+        // {
+        //   content: 'Hobbies',
+        //   href: 'hobbies'
+        // },
         {
           content: this.lang === 'es' ? 'Idiomas' : 'Languages',
           href: 'languages'
