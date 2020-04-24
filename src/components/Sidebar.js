@@ -11,7 +11,7 @@ export class Sidebar extends Component {
   constructor(props) {
     super(props);
 
-    this.lang = window.location.pathname.replace(/^\/([^\/]*).*$/, '$1');
+    this.lang = typeof window !== 'undefined' ? window.location.pathname.replace(/^\/([^\/]*).*$/, '$1') : '';
 
     this.state = {
       tabs: [
@@ -53,8 +53,8 @@ export class Sidebar extends Component {
 
   render() {
     const { tabs } = this.state;
-
-    const lang = window.location.pathname.replace(/^\/([^\/]*).*$/, '$1');
+    
+    const lang = typeof window !== 'undefined' ? window.location.pathname.replace(/^\/([^\/]*).*$/, '$1') : '';
 
     return (
       <nav
