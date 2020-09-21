@@ -54,7 +54,7 @@ module.exports = {
       {
         title: "Digital Marketing",
         subHeading: "Platzi",
-        description: "Technical networks and applications and wireless security. Linux and python. Governments and risks (APT and Cybersecurity). Cryptography and steganography. Forensic analysis of computer systems. Ethical hacking. Metasploit. Violation of identification and authentication mechanisms.",
+        description: "Digital marketing. Instagram Ads and Campaign Optimization. Strategy and Creation of Digital Content. Crisis Management in Social Networks. SEO: Search Engine Optimization.",
         dateSince: 'October 2018',
         dateEnd: 'February 2019'
       },
