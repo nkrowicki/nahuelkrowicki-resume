@@ -1,0 +1,17 @@
+.card-title {
+    color: $purple;
+    
+    &:hover{
+        color: $indigo;
+    }
+}
+
+.portfolio-card{
+    width: '500px';
+}
+
+.tag{
+    background-color: $gray-600;
+    color: white;
+    padding: 0.3rem 0.4rem;
+}

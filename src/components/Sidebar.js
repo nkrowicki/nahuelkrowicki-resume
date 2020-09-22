@@ -20,6 +20,10 @@ export class Sidebar extends Component {
           href: 'about'
         },
         {
+          content: this.lang === 'es' ? 'Portafolio' : 'Portfolio',
+          href: 'portfolio'
+        },
+        {
           content: this.lang === 'es' ? 'Habilidades' : 'Skills',
           href: 'skills'
         },

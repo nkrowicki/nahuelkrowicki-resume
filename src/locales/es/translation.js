@@ -1,6 +1,62 @@
 module.exports = {
   summary1: 'Apasionado de la informática, la tecnología y la seguridad.',
   summary2: 'Me fascina aprender cosas nuevas!',
+  portfolio: {
+    title: 'Portafolio',
+    subheading1:'Algunos trabajos realizados',
+    viewMore: 'Ver más',
+    works: [
+      {
+        title: "Feedback IT",
+        url: "https://feedbackit-site.netlify.app/",
+        img: "",
+        description: 'Sitio web institucional construido con Gatsby y desplegado en Netlify.',
+        technologies: ['React','Gatsby','TailwindCSS','GraphQl','Netlify']
+      },
+      {
+        title: "Nahuel Krowicki",
+        url: "https://nahuelkrowicki.netlify.app/",
+        img: "",
+        description: 'Este sitio! Mi cv el cual está construido con Gatsby y desplegado en Netlify y Vercel.',
+        technologies: ['React','Gatsby', 'Sass', 'Bootstrap','GraphQl','Netlify']
+      },
+      {
+        title: "Nubedi",
+        url: "https://nubedi.com",
+        img: "",
+        description: 'Sitio web de mi emprendimiento realizado con Wordpress.',
+        technologies: ['HTML', 'CSS', 'JS', 'Wordpress']
+      },
+      {
+        title: "Leven Eventos",
+        url: "https://leveneventos.com.ar",
+        img: "",
+        description: 'Sitio web institucional realizado para una productora de eventos.',
+        technologies: ['HTML', 'CSS', 'JS', 'Wordpress']
+      },
+      {
+        title: "AMFarma",
+        url: "https://amfarma.com.ar",
+        img: "",
+        description: 'E-commerce realizado para una Farmacia, realizado con Woocomerce + Wordpress.',
+        technologies: ['HTML', 'CSS', 'JS', 'Wordpress', 'Woocomerce']
+      },
+      {
+        title: "954 Lincoln",
+        url: "https://954lincoln.com.ar/",
+        img: "",
+        description: 'Sitio web institucional realizado para empresa de logística internacional.',
+        technologies: ['HTML', 'CSS', 'JS', 'Wordpress']
+      },
+      {
+        title: "Nankang",
+        url: "https://nankang.com.ar/tienda/index.phphttps://nankang.com.ar/tienda/index.php",
+        img: "",
+        description: 'E-commerce de neumáticos realizado en Prestashop.',
+        technologies: ['HTML','CSS', 'Prestashop']
+      },
+    ]
+  },
   experience: {
     title: 'Experiencia',
     experiences: [

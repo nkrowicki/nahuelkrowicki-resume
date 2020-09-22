@@ -12,8 +12,8 @@ const IndexPage = () => (
                 <header className="major">
                     <h2>
                         H E L L O !
-            <br />
-            H O L A !
+                    <br />
+                    H O L A !
           </h2>
                 </header>
             </section>

@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Layout from '../Layout';
 import Sidebar from '../Sidebar';
 import config from '../../../config';
 import ExperienceOrEducation from '../ExperienceOrEducation';
 
+import Portfolio from '../portfolio/Portfolio';
 import WorkFlow from '../Workflow';
 import Languages from '../Languages';
 
@@ -48,6 +49,9 @@ const IndexPage = () => {
           </div>
         </section>
 
+
+        <Portfolio />
+        
         <hr className="m-0" />
 
         <section
@@ -257,6 +261,7 @@ const IndexPage = () => {
             </ul>
           </div>
         </section> */}
+        
       </div>
     </Layout>
   );

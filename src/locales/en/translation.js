@@ -1,6 +1,62 @@
 module.exports = {
   summary1: 'Passionate about computers, technology and security.',
   summary2: 'I love learning new things!',
+  portfolio: {
+    title: 'Portfolio',
+    subheading1: 'Some works done',
+    viewMore: 'View more',
+    works: [
+      {
+        title: "Feedback IT",
+        url: "https://feedbackit-site.netlify.app/",
+        img: "",
+        description: 'Institutional website built with Gatsby and deployed on netlify.',
+        technologies: ['React','Gatsby','TailwindCSS','GraphQl']
+      },
+      {
+        title: "Nahuel Krowicki",
+        url: "https://nahuelkrowicki.netlify.app/",
+        img: "",
+        description: 'This site! My cv which is built with Gatsby and deployed on netlify.',
+        technologies: ['React','Gatsby','Sass', 'Bootstrap','Netlify']
+      },
+      {
+        title: "Nubedi",
+        url: "https://nubedi.com",
+        img: "",
+        description: 'Website of my project made with Wordpress.',
+        technologies: ['HTML', 'CSS', 'JS', 'Wordpress']
+      },
+      {
+        title: "Leven Eventos",
+        url: "https://leveneventos.com.ar",
+        img: "",
+        description: 'institutional website made for an event producer.',
+        technologies: ['HTML', 'CSS', 'JS', 'Wordpress']
+      },
+      {
+        title: "AMFarma",
+        url: "https://amfarma.com.ar",
+        img: "",
+        description: 'E-commerce for a Pharmacy, made with Woocommerce + Wordpress.',
+        technologies: ['HTML', 'CSS', 'JS', 'Wordpress', 'Woocomerce']
+      },
+      {
+        title: "954 Lincoln",
+        url: "https://954lincoln.com.ar/",
+        img: "",
+        description: 'Institutional website made for an international logistics company.',
+        technologies: ['HTML', 'CSS', 'JS', 'Wordpress']
+      },
+      {
+        title: "Nankang",
+        url: "https://nankang.com.ar/tienda/index.phphttps://nankang.com.ar/tienda/index.php",
+        img: "",
+        description: 'E-commerce of tires made in Prestashop.',
+        technologies: ['HTML','CSS', 'Prestashop']
+      },
+    ]
+  },
   experience: {
     title: 'Experience',
     experiences: [
