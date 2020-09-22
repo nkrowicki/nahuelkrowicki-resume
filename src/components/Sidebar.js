@@ -86,7 +86,7 @@ export class Sidebar extends Component {
 
         </span>
         <button
-          className="navbar-toggler"
+          className="d-none navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
