@@ -7,17 +7,24 @@ module.exports = {
     viewMore: 'View more',
     works: [
       {
+        title: "CheChef",
+        url: "https://chechef.netlify.app/",
+        img: "",
+        description: '(Under development) Gastronomic application to manage and keep track of recipes, orders and keep business accounting.',
+        technologies: ['React','Redux','Thunk', 'CSS Modules','Firebase']
+      },
+      {
         title: "Feedback IT",
         url: "https://feedbackit-site.netlify.app/",
         img: "",
-        description: 'Institutional website built with Gatsby and deployed on netlify.',
+        description: 'Institutional website built with Gatsby, TailwindCSS and deployed on netlify.',
         technologies: ['React','Gatsby','TailwindCSS','GraphQl']
       },
       {
         title: "Nahuel Krowicki",
         url: "https://nahuelkrowicki.netlify.app/",
         img: "",
-        description: 'This site! My cv which is built with Gatsby and deployed on netlify.',
+        description: 'This site! My cv which is built with Gatsby, Sass, Bootstrap and deployed on netlify.',
         technologies: ['React','Gatsby','Sass', 'Bootstrap','Netlify']
       },
       {

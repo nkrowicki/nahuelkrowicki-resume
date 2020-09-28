@@ -7,17 +7,24 @@ module.exports = {
     viewMore: 'Ver más',
     works: [
       {
+        title: "CheChef",
+        url: "https://chechef.netlify.app/",
+        img: "",
+        description: '(En desarrollo) Aplicación gastronómica para gestionar y llevar el control de recetas, pedidos y la contabilidad de un negocio.',
+        technologies: ['React','Redux','Thunk', 'CSS Modules','Firebase']
+      },
+      {
         title: "Feedback IT",
         url: "https://feedbackit-site.netlify.app/",
         img: "",
-        description: 'Sitio web institucional construido con Gatsby y desplegado en Netlify.',
+        description: 'Sitio web institucional construido con Gatsby, TailwindCSS y desplegado en Netlify.',
         technologies: ['React','Gatsby','TailwindCSS','GraphQl','Netlify']
       },
       {
         title: "Nahuel Krowicki",
         url: "https://nahuelkrowicki.netlify.app/",
         img: "",
-        description: 'Este sitio! Mi cv el cual está construido con Gatsby y desplegado en Netlify y Vercel.',
+        description: 'Este sitio! Mi cv el cual está construido con Gatsby, Sass, Bootstrap y desplegado en Netlify y Vercel.',
         technologies: ['React','Gatsby', 'Sass', 'Bootstrap','GraphQl','Netlify']
       },
       {
