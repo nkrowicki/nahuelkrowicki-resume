@@ -15,7 +15,7 @@ module.exports = {
       },
       {
         title: "Feedback IT",
-        url: "https://feedbackit-site.netlify.app/",
+        url: "https://feedback-it.com/",
         img: "",
         description: 'Sitio web institucional construido con Gatsby, TailwindCSS y desplegado en Netlify.',
         technologies: ['React','Gatsby','TailwindCSS','GraphQl','Netlify']
